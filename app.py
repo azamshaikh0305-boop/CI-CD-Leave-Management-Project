@@ -14,7 +14,7 @@ EMPLOYEES = {
     "E002": {"name": "Dolly",    "dept": "Design",   "role": "UI Designer"},
     "E003": {"name": "Akash H",    "dept": "Backend",  "role": "DevOps Engineer"},
     "E004": {"name": "Manoj",    "dept": "QA",       "role": "Test Engineer"},
-    "E005": {"name": "Dhanush D",   "dept": "DevOps",   "role": "Cloud Engineer"},
+    "E005": {"name": "Dhanush",   "dept": "DevOps",   "role": "Cloud Engineer"},
 }
 
 LEAVE_BALANCE = {
