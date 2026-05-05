@@ -207,30 +207,15 @@ Pipeline GREEN ✅
 
 ---
 
-## 🌐 API Endpoints
-
-| Method | Endpoint | Description |
-|---|---|---|
-| GET | `/` | Dashboard home |
-| GET | `/apply` | Apply leave form |
-| POST | `/apply` | Submit leave request |
-| GET | `/my-leaves` | Personal leave history |
-| GET | `/team` | Team leave calendar |
-| GET | `/admin` | Admin approval panel |
-| POST | `/admin/action/<id>/<action>` | Approve or reject leave |
-| GET | `/health` | Health check endpoint |
-
----
-
 ## 👥 Sample Employees (Pre-loaded Data)
 
 | ID | Name | Department | Role |
 |---|---|---|---|
-| E001 | Azam Z | Backend | Software Engineer |
+| E001 | Azam Z | Backend | Cloud Engineer |
 | E002 | Dolly | Design | UI Designer |
 | E003 | Akash H | Backend | DevOps Engineer |
-| E004 | Manoj | QA | Test Engineer |
-| E005 | Dhanush D | DevOps | Cloud Engineer |
+| E004 | Manoj | QA | DevOps Engineer |
+| E005 | Dhanush D | DevOps | Software Engineer |
 
 ---
 
@@ -261,20 +246,11 @@ Pipeline GREEN ✅
 ## 🧑‍💻 Author
 
 **Azam Z**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- GitHub: [@AZAM Z](https://github.com/azamshaikh0305-boop)
 - Project: Leave Management System — Internship Project
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
-
----
-
-## 🙏 Acknowledgements
-
-- [Flask Documentation](https://flask.palletsprojects.com/)
-- [Pytest Documentation](https://docs.pytest.org/)
-- [Docker Documentation](https://docs.docker.com/)
-- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+This project is for educational purpose only.
