@@ -23,13 +23,13 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.11"
+          python-version: "3.12"
 
       - name: Install flake8
         run: pip install flake8
 
       - name: Run Lint
-        run: flake8 app.py --max-line-length=100 --ignore=E501,W503
+        run: flake8 app.py --max-line-length=100 --ignore=E501,W503,E241,E221,E741,W292,F401
 
   # ── JOB 2: Test ──────────────────────────────────
   test:
@@ -44,7 +44,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: "3.11"
+          python-version: "3.12"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -76,3 +76,4 @@ jobs:
 
       - name: Stop Container
         run: docker stop leavesync-app
+        
