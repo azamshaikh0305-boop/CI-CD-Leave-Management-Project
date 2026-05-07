@@ -4,7 +4,6 @@
 ![Flask](https://img.shields.io/badge/Flask-3.0.0-black?style=flat&logo=flask)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=flat&logo=docker)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?style=flat&logo=githubactions)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat)
 
 A real-world **Employee Leave Management System** built with Python & Flask. Employees can apply for leaves, track status, and managers can approve or reject requests — all through a clean dashboard UI. Fully containerized with Docker and automated with a CI/CD pipeline using GitHub Actions.
 
